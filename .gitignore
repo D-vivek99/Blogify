@@ -1,0 +1,7 @@
+# ignore any file with .log extension
+*.log
+
+# ignore below directory
+node_modules/
+
+/Readme.txt

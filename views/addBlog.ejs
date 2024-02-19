@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head') %>
+    <title>Blogify | Blogs</title>
+</head>
+<body>
+    <%- include('./partials/nav') %>
+
+    <div class="container mt-3">  
+        <form action="/blog" method="post" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="coverImage" class="form-label">Cover Image</label>
+                <input type="file" name="coverImage" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" name="title" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label for="body" class="form-label">Description</label>
+                <textarea type="text" name="body" class="form-control" rows="3" placeholder="Leave a comment..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <%- include('./partials/script') %>
+</body>
+</html>
