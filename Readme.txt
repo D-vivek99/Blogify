@@ -6,4 +6,4 @@ Features included:
   -authentication using JWT tokens
   -uploading files
   -SSR rendering using EJS
-  -customer middlewares in MongoDB
+  -custom middlewares in MongoDB
