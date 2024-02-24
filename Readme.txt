@@ -1,9 +1,7 @@
-Web application for posting blogs using NodeJS, Express, and MongoDB.
+Blogify - A Bloging Platform
 
-Features included:
-  -user login/sign-up
-  -password hashing
-  -authentication using JWT tokens
-  -uploading files
-  -SSR rendering using EJS
-  -custom middlewares in MongoDB
+Designed and developed a blog platform using NodeJS, Express, and MongoDB, incorporating features such as:
+  - User authentication
+  - CRUD operations for blog posts, and comment functionality
+  - Password hashing
+  - SSR rendering using EJS
